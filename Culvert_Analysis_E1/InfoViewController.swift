@@ -23,10 +23,11 @@ class InfoViewController: UIViewController
     
     
     
-    @IBAction func computeSlope(sender: AnyObject) {
-        let slopeInt = (Int(usInv.text!)! - Int(dsInv.text!)!) / Int(lengthPipe.text!)!
+    @IBAction func computeSlope(sender: AnyObject)
+    {
+        let slopeDub = (Double(usInv.text!)! - Double(dsInv.text!)!) / Double(lengthPipe.text!)!
         
-        slope.text = "\(slopeInt)"
+        slope.text = "\(slopeDub)"
     }
     
     override func viewDidLoad()
