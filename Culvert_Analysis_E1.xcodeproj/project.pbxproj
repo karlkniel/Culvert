@@ -14,6 +14,7 @@
 		396872791D8721F500349FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396872771D8721F500349FE5 /* LaunchScreen.storyboard */; };
 		396872841D8721F500349FE5 /* Culvert_Analysis_E1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396872831D8721F500349FE5 /* Culvert_Analysis_E1Tests.swift */; };
 		3968728F1D8721F500349FE5 /* Culvert_Analysis_E1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968728E1D8721F500349FE5 /* Culvert_Analysis_E1UITests.swift */; };
+		39B137C91D872A4F003A2044 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B137C81D872A4F003A2044 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3968728A1D8721F500349FE5 /* Culvert_Analysis_E1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Culvert_Analysis_E1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3968728E1D8721F500349FE5 /* Culvert_Analysis_E1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Culvert_Analysis_E1UITests.swift; sourceTree = "<group>"; };
 		396872901D8721F500349FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B137C81D872A4F003A2044 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3968726E1D8721F500349FE5 /* AppDelegate.swift */,
 				396872701D8721F500349FE5 /* ViewController.swift */,
 				396872721D8721F500349FE5 /* Main.storyboard */,
+				39B137C81D872A4F003A2044 /* InfoViewController.swift */,
 				396872751D8721F500349FE5 /* Assets.xcassets */,
 				396872771D8721F500349FE5 /* LaunchScreen.storyboard */,
 				3968727A1D8721F500349FE5 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				396872711D8721F500349FE5 /* ViewController.swift in Sources */,
+				39B137C91D872A4F003A2044 /* InfoViewController.swift in Sources */,
 				3968726F1D8721F500349FE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				396872951D8721F500349FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396872961D8721F500349FE5 /* Build configuration list for PBXNativeTarget "Culvert_Analysis_E1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				396872981D8721F500349FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396872991D8721F500349FE5 /* Build configuration list for PBXNativeTarget "Culvert_Analysis_E1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				3968729B1D8721F500349FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
