@@ -23,7 +23,7 @@ class InfoViewController: UIViewController
     
     
     
-    @IBAction func computeSlope(sender: AnyObject)
+    @IBAction func computeSlope(_ sender: AnyObject)
     {
         let slopeDub = (Double(usInv.text!)! - Double(dsInv.text!)!) / Double(lengthPipe.text!)!
         
