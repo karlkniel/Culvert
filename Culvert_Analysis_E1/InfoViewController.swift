@@ -19,20 +19,56 @@ class InfoViewController: UIViewController
     @IBOutlet weak var dsInv: UITextField!
     @IBOutlet weak var lengthPipe: UITextField!
     @IBOutlet weak var slope: UITextField!
-    @IBOutlet weak var units: UISegmentedControl!
+    
+    @IBOutlet weak var headwallUnits: UILabel!
+    @IBOutlet weak var usInvUnits: UILabel!
+    @IBOutlet weak var dsInvUnits: UILabel!
+    @IBOutlet weak var lengthPipeUnits: UILabel!
+    @IBOutlet weak var slopeUnits: UILabel!
+    @IBOutlet weak var unitChoice: UISegmentedControl!
+    
+    @IBAction func unitChange(_ sender: AnyObject)
+    {
+        switch unitChoice.selectedSegmentIndex
+        {
+        case 0:
+            headwallUnits.text = "ft"
+            usInvUnits.text = "ft"
+            dsInvUnits.text = "ft"
+            lengthPipeUnits.text = "ft"
+            slopeUnits.text = "ft"
+            
+        case 1:
+            headwallUnits.text = "m"
+            usInvUnits.text = "m"
+            dsInvUnits.text = "m"
+            lengthPipeUnits.text = "m"
+            slopeUnits.text = "m"
+            
+        default:
+            
+            break;
+            
+        }
+    }
+    
 	
     
     @IBAction func computeSlope(_ sender: AnyObject)
     {
-        let slopeDub = (Double(usInv.text!)! - Double(dsInv.text!)!) / Double(lengthPipe.text!)!
+        print (lengthPipe.text)
+        if (!(lengthPipe.text?.isEmpty)!) && (lengthPipe.text! != "0")
+        {
+            let slopeDub = (Double(usInv.text!)! - Double(dsInv.text!)!) / Double(lengthPipe.text!)!
+            
+            slope.text = "\(slopeDub)"
+        }
         
-        slope.text = "\(slopeDub)"
     }
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
