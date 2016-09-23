@@ -50,6 +50,4 @@ class InfoViewController: UIViewController
 		textField.resignFirstResponder()
 		return true
 	}
-	
-	
 }
