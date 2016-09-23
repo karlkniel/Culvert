@@ -20,8 +20,7 @@ class InfoViewController: UIViewController
     @IBOutlet weak var lengthPipe: UITextField!
     @IBOutlet weak var slope: UITextField!
     @IBOutlet weak var units: UISegmentedControl!
-    
-    
+	
     
     @IBAction func computeSlope(_ sender: AnyObject)
     {
@@ -42,4 +41,13 @@ class InfoViewController: UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+	
+	override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+		self.view.endEditing(true)
+	}
+	
+	func textFieldShouldReturn(textField: UITextField) -> Bool {
+		textField.resignFirstResponder()
+		return true
+	}
 }
