@@ -15,6 +15,9 @@
 		396872841D8721F500349FE5 /* Culvert_Analysis_E1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396872831D8721F500349FE5 /* Culvert_Analysis_E1Tests.swift */; };
 		3968728F1D8721F500349FE5 /* Culvert_Analysis_E1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968728E1D8721F500349FE5 /* Culvert_Analysis_E1UITests.swift */; };
 		39B137C91D872A4F003A2044 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B137C81D872A4F003A2044 /* InfoViewController.swift */; };
+		CB70C24A1D9899B90092300B /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C2491D9899B90092300B /* FlowViewController.swift */; };
+		CB70C26B1D98B9660092300B /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C26A1D98B9660092300B /* PickerViewController.swift */; };
+		CB70C26D1D98BAF00092300B /* PickerSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70C26C1D98BAF00092300B /* PickerSizeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3968728E1D8721F500349FE5 /* Culvert_Analysis_E1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Culvert_Analysis_E1UITests.swift; sourceTree = "<group>"; };
 		396872901D8721F500349FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39B137C81D872A4F003A2044 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CB70C2491D9899B90092300B /* FlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
+		CB70C26A1D98B9660092300B /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		CB70C26C1D98BAF00092300B /* PickerSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerSizeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				3968726E1D8721F500349FE5 /* AppDelegate.swift */,
 				396872701D8721F500349FE5 /* ViewController.swift */,
 				396872721D8721F500349FE5 /* Main.storyboard */,
+				CB70C26C1D98BAF00092300B /* PickerSizeViewController.swift */,
+				CB70C26A1D98B9660092300B /* PickerViewController.swift */,
+				CB70C2491D9899B90092300B /* FlowViewController.swift */,
 				39B137C81D872A4F003A2044 /* InfoViewController.swift */,
 				396872751D8721F500349FE5 /* Assets.xcassets */,
 				396872771D8721F500349FE5 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB70C26B1D98B9660092300B /* PickerViewController.swift in Sources */,
+				CB70C26D1D98BAF00092300B /* PickerSizeViewController.swift in Sources */,
 				396872711D8721F500349FE5 /* ViewController.swift in Sources */,
 				39B137C91D872A4F003A2044 /* InfoViewController.swift in Sources */,
+				CB70C24A1D9899B90092300B /* FlowViewController.swift in Sources */,
 				3968726F1D8721F500349FE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

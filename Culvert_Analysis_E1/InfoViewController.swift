@@ -56,7 +56,6 @@ class InfoViewController: UIViewController
     
     @IBAction func computeSlope(_ sender: AnyObject)
     {
-        print (lengthPipe.text)
         if (!(lengthPipe.text?.isEmpty)!) && (lengthPipe.text! != "0")
         {
             let slopeDub = (Double(usInv.text!)! - Double(dsInv.text!)!) / Double(lengthPipe.text!)!
